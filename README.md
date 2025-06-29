@@ -1,64 +1,10 @@
 **Assignment1:**
 
-1. 💻 Microservice Development
-Write a microservice in Python or Go.
-The service must:
-Accept three inputs:
-From currency (dropdown)
-To currency (dropdown)
-Amount (input box)
-Query a live exchange rate API (e.g., exchangerate.host or openexchangerates.org) to perform real-time conversion.
-Return the converted amount to the user.
-Deliverables:
-REST API (e.g., /convert?from=USD&to=EUR&amount=100)
-Minimal web UI with dropdowns and textbox (can be Flask, FastAPI, or minimal frontend in Go).
-
-2. 📦 Docker
-Create a Dockerfile to containerize your application.
-The Dockerfile should:
-Use minimal base image (e.g., python:slim or golang:alpine)
-Copy source, install dependencies, and expose necessary ports.
-Use a non-root user (bonus).
-Deliverables:
-Working Dockerfile
-Application should run with docker build and docker run.
-
-3. 🔁 CI/CD Pipeline
-Choose Jenkins, GitHub Actions, Bitbucket Pipelines, or any other supported CI/CD tool.
-Pipeline should:
-Build Docker image.
-Push image to a container registry (Docker Hub, GitHub Packages, or similar).
-Lint/test Helm charts (bonus).
-Deliverables:
-CI/CD config file (e.g., .github/workflows/pipeline.yml)
-Brief README.md on how to trigger and observe the pipeline.
-
-4. 🎛️ Helm Chart
-Create a Helm chart to deploy your service.
-Helm chart must include:
-Deployment
-Service
-Configurable values (e.g., image tag, port)
-README explaining the chart usage
-Deliverables:
-Folder: helm/currency-converter/ with chart structure.
-
-5. ☁️ Infrastructure with Terraform
-Use Terraform to provision the infrastructure.
-Choose AWS, GCP, or Azure (depending on experience).
-The script must:
-Create a managed Kubernetes cluster (e.g., EKS/GKE/AKS).
-Configure necessary IAM roles and permissions.
-Deploy Helm chart after provisioning.
-Deliverables:
-terraform/ directory containing main.tf, variables.tf, and outputs.tf.
-Clear separation between infrastructure and application deployment logic.
-
-
 ==============================================================================================================================================================
                                                                 Resolving Steps
 ==============================================================================================================================================================                                                                
 **Note: All the respective files are available in the repository https://github.com/Asr5454/currencyconverter/tree/main**
+Also Terraform has not used as it requires the cloud platform to create an cluster. I have knowledge into TF and Please go through the files attached for main.tf , variable.tf and outputs.tf
 
 ## 🔧 Steps Followed in This Project
 
