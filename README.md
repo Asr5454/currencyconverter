@@ -77,9 +77,9 @@ INFO:     Started server process [1]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
--------------------------------------------------------------
 
 
+----------------------------------------------------------------------
 
 **6.** ✅ Exposed App via Port Forwarding
 Verified pod status:
