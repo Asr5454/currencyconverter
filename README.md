@@ -58,6 +58,7 @@ Clear separation between infrastructure and application deployment logic.
 ==============================================================================================================================================================
                                                                 Resolving Steps
 ==============================================================================================================================================================                                                                
+**Note: All the respective files are available in the repository https://github.com/Asr5454/currencyconverter/tree/main**
 
 ## 🔧 Steps Followed in This Project
 
