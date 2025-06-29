@@ -3,8 +3,11 @@
 ==============================================================================================================================================================
                                                                 Resolving Steps
 ==============================================================================================================================================================                                                                
-**Note: All the respective files are available in the repository https://github.com/Asr5454/currencyconverter/tree/main**
-Also Terraform has not used as it requires the cloud platform to create an cluster. I have knowledge into TF and Please go through the files attached for main.tf , variable.tf and outputs.tf
+**Note:**
+
+**All the respective files are available in the repository https://github.com/Asr5454/currencyconverter/tree/main**
+
+**Also Terraform has not used as it requires the cloud platform to create an cluster. I have knowledge into TF and Please go through the files attached for main.tf , variable.tf and outputs.tf**
 
 ## 🔧 Steps Followed in This Project
 
