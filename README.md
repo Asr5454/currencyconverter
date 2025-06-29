@@ -57,26 +57,8 @@ helm install currency-converter ./helm/currency-converter
 -----------------------------------------------------------
 asrprasad@ASRs-MacBook-Pro currencyconverter % helm install currency-converter ./helm/currency-converter
 
-NAME: currency-converter
-LAST DEPLOYED: Sun Jun 29 15:51:04 2025
-NAMESPACE: default
-STATUS: deployed
-REVISION: 1
-TEST SUITE: None
-asrprasad@ASRs-MacBook-Pro currencyconverter % kubectl get pods
-NAME                                  READY   STATUS              RESTARTS   AGE
-currency-converter-6dbf8cb59f-bc467   0/1     ContainerCreating   0          4s
-asrprasad@ASRs-MacBook-Pro currencyconverter % kubectl get pods
-NAME                                  READY   STATUS              RESTARTS   AGE
-currency-converter-6dbf8cb59f-bc467   0/1     ContainerCreating   0          14s
-asrprasad@ASRs-MacBook-Pro currencyconverter % kubectl get pods
-NAME                                  READY   STATUS    RESTARTS   AGE
-currency-converter-6dbf8cb59f-bc467   1/1     Running   0          50s
-asrprasad@ASRs-MacBook-Pro currencyconverter % kubectl logs currency-converter-6dbf8cb59f-bc467
-INFO:     Started server process [1]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+<img width="831" alt="usinghelm" src="https://github.com/user-attachments/assets/a1ac979a-077d-49ae-9bc6-a1c97a8c59be" />
+
 
 
 ----------------------------------------------------------------------
@@ -87,4 +69,7 @@ kubectl get pods
 Forwarded service port:
 kubectl port-forward svc/currency-converter 8000:80
 
-Opened app in browser: http://localhost:8000 ----I implemented as it will be in used only when port forwarding command executes. Once exit the port forwarding command the application will be not accessible.
+<img width="731" alt="portforwarding" src="https://github.com/user-attachments/assets/6bfd6f52-8ae0-4674-8dd4-b8f3669a2639" />
+
+**Verifying**
+**Opened app in browser:** http://localhost:8000 ----I implemented as it will be in used only when port forwarding command executes. Once exit the port forwarding command the application will be not accessible.
