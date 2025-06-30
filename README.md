@@ -73,3 +73,24 @@ kubectl port-forward svc/currency-converter 8000:80
 
 **Verifying**
 **Opened app in browser:** http://localhost:8000 ----I implemented as it will be in used only when port forwarding command executes. Once exit the port forwarding command the application will be not accessible.
+
+
+**Tree Diagram**
+├── currencyconverter
+│   ├── Dockerfile
+│   ├── helm
+│   │   └── currency-converter
+│   │       ├── Chart.yaml
+│   │       ├── templates
+│   │       │   ├── deployment.yaml
+│   │       │   └── service.yaml
+│   │       └── values.yaml
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── templates
+│   │   └── index.html
+│   └── terraform
+│       ├── main.tf
+│       ├── outputs.tf
+│       └── variable.tf
+
