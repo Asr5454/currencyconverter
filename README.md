@@ -76,21 +76,6 @@ kubectl port-forward svc/currency-converter 8000:80
 
 
 **Tree Diagram**
-├── currencyconverter
-│   ├── Dockerfile
-│   ├── helm
-│   │   └── currency-converter
-│   │       ├── Chart.yaml
-│   │       ├── templates
-│   │       │   ├── deployment.yaml
-│   │       │   └── service.yaml
-│   │       └── values.yaml
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── templates
-│   │   └── index.html
-│   └── terraform
-│       ├── main.tf
-│       ├── outputs.tf
-│       └── variable.tf
+<img width="316" alt="Assignment1" src="https://github.com/user-attachments/assets/0717158d-fc32-49bb-a990-483517fc5862" />
+
 
